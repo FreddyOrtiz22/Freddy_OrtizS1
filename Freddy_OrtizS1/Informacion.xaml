@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Freddy_OrtizS1.Informacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#1BEC3D" Padding="20" CornerRadius="20">
+                <Label Text="Ingrese Datos " FontSize="22" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Frame>
+            <Entry x:Name="txtNombre" Placeholder="Nombre: " BackgroundColor="#FFFFFCF4"  />
+            <Entry x:Name="txtApellido" Placeholder="Apellido: " BackgroundColor="#FFFFFCF4"  />
+            <Entry x:Name="txtEdad" Placeholder="Edad: " BackgroundColor="#FFFFFCF4"  />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
